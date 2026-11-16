@@ -1,0 +1,14 @@
+// PharmacyPerson.java
+public abstract class PharmacyPerson {
+    protected String name;
+    protected int age;
+
+    // Constructor
+    public PharmacyPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Abstract method (must be implemented by subclasses)
+    public abstract void displayInfo();
+}
